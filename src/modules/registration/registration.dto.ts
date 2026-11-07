@@ -26,7 +26,7 @@ export interface RegistrationResponseDto {
 
 export interface RegistrationConfirmationDto {
   registrationId: string;
-  registrationStatus: typeof registration_status.PENDING_REVIEW;
-  paymentStatus: typeof payment_status.NOT_REVIEWED;
+  registrationStatus: registration_status;
+  paymentStatus: payment_status;
   message: string;
 }
