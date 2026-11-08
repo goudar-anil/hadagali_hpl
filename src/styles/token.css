@@ -1,0 +1,39 @@
+:root {
+  /* Brand */
+  --color-brand: #172554;
+  --color-brand-light: #1e3a8a;
+  --color-gold: #d4af37;
+  --color-gold-light: #f8e7a1;
+
+  /* Surfaces */
+  --color-background: #f8f9fc;
+  --color-surface: #ffffff;
+  --color-surface-muted: #f1f5f9;
+
+  /* Text */
+  --color-text-primary: #172033;
+  --color-text-secondary: #64748b;
+  --color-text-inverse: #ffffff;
+
+  /* Status */
+  --color-success: #15803d;
+  --color-warning: #b45309;
+  --color-danger: #b91c1c;
+  --color-info: #1d4ed8;
+
+  /* Borders */
+  --color-border: #e2e8f0;
+
+  /* Layout */
+  --container-width: 1200px;
+  --header-height: 64px;
+  --mobile-nav-height: 68px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+
+  /* Shadows */
+  --shadow-card: 0 2px 12px rgb(15 23 42 / 5%);
+}
